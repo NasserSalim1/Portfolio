@@ -34,7 +34,7 @@ body{
 
 .apresentacao_conteudo_titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;;
+    font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao_conteudo_texto{
@@ -44,18 +44,34 @@ body{
 
 .apresentacao_links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px; /* Dar espaço entre os botões */
 }
 
 .botao{
-    background-color: #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
     padding: 21.5px 0;
-    width: 280px;
+    width: 378px;
     font-weight: 600;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
+}    
+
+.botao:hover{
+    background-color: #272727;
+}
+
+.apresentacao_tittulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
